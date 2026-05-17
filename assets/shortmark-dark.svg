@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Collin Vaness mark">
+  <title>Collin Vaness mark</title>
+  <rect width="200" height="200" fill="#0F0F12"/>
+  <rect x="22" y="-10" width="22" height="240" fill="#7A1F1F" transform="rotate(18 100 100)"/>
+  <text x="98" y="148"
+        font-family="'Oswald', 'Arial Narrow', 'Helvetica Neue', sans-serif"
+        font-weight="700"
+        font-size="160"
+        letter-spacing="0"
+        fill="#F4F0E8">V</text>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="Vox Awakens — Book One of The Iron Revenants Saga">
+  <title>The Iron Revenants Saga — Book One</title>
+  <rect width="600" height="900" fill="#0F0F12"/>
+  <rect x="0" y="0" width="600" height="80" fill="#7A1F1F"/>
+  <rect x="0" y="80" width="600" height="40" fill="#B08D3C"/>
+  <text x="40" y="50"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="32" letter-spacing="6" fill="#F4F0E8">IRON REVENANTS</text>
+  <text x="40" y="108"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="500" font-size="20" letter-spacing="6" fill="#0F0F12">QUARTET I  /  BOOK ONE</text>
+  <text x="40" y="500"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="140" letter-spacing="6" fill="#F4F0E8">VOX</text>
+  <text x="40" y="620"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="100" letter-spacing="4" fill="#7A1F1F">AWAKENS</text>
+  <text x="40" y="700"
+        font-family="'Playfair Display', Georgia, serif"
+        font-style="italic" font-size="24" fill="#B08D3C">Captain Kade Varn has died seventeen times.</text>
+  <rect x="0" y="820" width="600" height="80" fill="#B08D3C"/>
+  <text x="40" y="872"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="36" letter-spacing="4" fill="#0F0F12">COLLIN VANESS</text>
+</svg>

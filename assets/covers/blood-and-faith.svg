@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="Blood and Faith — The Last Christian King of Jerusalem">
+  <title>Blood and Faith — The Last Christian King of Jerusalem</title>
+  <!-- Parchment cream background -->
+  <rect width="600" height="900" fill="#EDE6D3"/>
+  <!-- Top oxblood band -->
+  <rect x="0" y="0" width="600" height="140" fill="#6B1414"/>
+  <text x="40" y="55"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="500" font-size="20" letter-spacing="8" fill="#EDE6D3">A NOVEL OF THE CRUSADES</text>
+  <text x="40" y="105"
+        font-family="'Playfair Display', Georgia, serif"
+        font-style="italic" font-size="26" fill="#EDE6D3">The Last Christian King of Jerusalem</text>
+
+  <!-- Cross motif, watermark -->
+  <g opacity="0.10">
+    <rect x="280" y="200" width="40" height="240" fill="#6B1414"/>
+    <rect x="200" y="280" width="200" height="40" fill="#6B1414"/>
+  </g>
+
+  <!-- Title — large Playfair -->
+  <text x="40" y="470"
+        font-family="'Playfair Display', Georgia, serif"
+        font-weight="700" font-size="130" fill="#6B1414">Blood</text>
+  <text x="40" y="550"
+        font-family="'Playfair Display', Georgia, serif"
+        font-style="italic" font-size="64" fill="#0F0F12">and</text>
+  <text x="40" y="670"
+        font-family="'Playfair Display', Georgia, serif"
+        font-weight="700" font-size="130" fill="#0F0F12">Faith</text>
+  <rect x="40" y="700" width="220" height="4" fill="#6B1414"/>
+
+  <text x="40" y="755"
+        font-family="'Playfair Display', Georgia, serif"
+        font-style="italic" font-size="22" fill="#0F0F12">A King. A surrender. A long penance.</text>
+
+  <!-- Footer band -->
+  <rect x="0" y="820" width="600" height="80" fill="#0F0F12"/>
+  <text x="40" y="872"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="36" letter-spacing="4" fill="#EDE6D3">COLLIN VANESS</text>
+</svg>
