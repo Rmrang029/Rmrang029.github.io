@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="The Breach — Book One of The Vanguard Protocol">
+  <title>The Vanguard Protocol — Book One</title>
+  <rect width="600" height="900" fill="#2C4356"/>
+  <rect x="0" y="180" width="600" height="6" fill="#B08D3C"/>
+  <text x="40" y="80"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="500" font-size="22" letter-spacing="8" fill="#B08D3C">BOOK ONE</text>
+  <text x="40" y="140"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="32" letter-spacing="2" fill="#F4F0E8">THE VANGUARD PROTOCOL</text>
+  <text x="40" y="520"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="128" letter-spacing="4" fill="#F4F0E8">THE</text>
+  <text x="40" y="640"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="128" letter-spacing="2" fill="#F4F0E8">BREACH</text>
+  <text x="40" y="710"
+        font-family="'Playfair Display', Georgia, serif"
+        font-style="italic" font-size="24" fill="#C9C2B3">Twelve specialists. One rolling war.</text>
+  <rect x="40" y="740" width="180" height="6" fill="#B08D3C"/>
+  <rect x="0" y="820" width="600" height="80" fill="#0F0F12"/>
+  <text x="40" y="872"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="36" letter-spacing="4" fill="#F4F0E8">COLLIN VANESS</text>
+</svg>

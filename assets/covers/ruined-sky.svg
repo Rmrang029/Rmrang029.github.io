@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="Beneath a Ruined Sky — Book One of The Ruined Sky Cycle">
+  <title>Beneath a Ruined Sky — Book One</title>
+  <rect width="600" height="900" fill="#0F0F12"/>
+  <rect x="0" y="0" width="600" height="180" fill="#7A1F1F"/>
+  <text x="40" y="80"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="500" font-size="22" letter-spacing="8" fill="#F4F0E8">BOOK ONE</text>
+  <text x="40" y="140"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="32" letter-spacing="2" fill="#F4F0E8">THE RUINED SKY CYCLE</text>
+  <text x="40" y="490"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="96" letter-spacing="1" fill="#F4F0E8">BENEATH</text>
+  <text x="40" y="580"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="96" letter-spacing="1" fill="#F4F0E8">A RUINED</text>
+  <text x="40" y="670"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="96" letter-spacing="1" fill="#7A1F1F">SKY</text>
+  <rect x="40" y="710" width="180" height="6" fill="#7A1F1F"/>
+  <text x="40" y="770"
+        font-family="'Playfair Display', Georgia, serif"
+        font-style="italic" font-size="22" fill="#C9C2B3">July 14, 2035. The bombs fall.</text>
+  <rect x="0" y="820" width="600" height="80" fill="#7A1F1F"/>
+  <text x="40" y="872"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="36" letter-spacing="4" fill="#F4F0E8">COLLIN VANESS</text>
+</svg>

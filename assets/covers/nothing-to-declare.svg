@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="Nothing to Declare placeholder cover">
+  <title>Nothing to Declare</title>
+  <rect width="600" height="900" fill="#EDE6D3"/>
+  <rect x="0" y="0" width="600" height="120" fill="#1E3A2E"/>
+  <text x="40" y="55"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="500" font-size="22" letter-spacing="8" fill="#EDE6D3">A NOVEL</text>
+  <text x="40" y="100"
+        font-family="'Playfair Display', Georgia, serif"
+        font-style="italic" font-size="28" fill="#EDE6D3">Oscar Wilde in America, 1882</text>
+  <text x="40" y="450"
+        font-family="'Playfair Display', Georgia, serif"
+        font-weight="700" font-size="96" fill="#1E3A2E">Nothing</text>
+  <text x="40" y="540"
+        font-family="'Playfair Display', Georgia, serif"
+        font-style="italic" font-weight="400" font-size="64" fill="#1E3A2E">to</text>
+  <text x="40" y="640"
+        font-family="'Playfair Display', Georgia, serif"
+        font-weight="700" font-size="96" fill="#1E3A2E">Declare</text>
+  <rect x="40" y="680" width="180" height="4" fill="#1E3A2E"/>
+  <text x="40" y="730"
+        font-family="'Playfair Display', Georgia, serif"
+        font-style="italic" font-size="22" fill="#1E3A2E">Fame, performance, the press machine.</text>
+  <rect x="0" y="820" width="600" height="80" fill="#1E3A2E"/>
+  <text x="40" y="872"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="36" letter-spacing="4" fill="#EDE6D3">COLLIN VANESS</text>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="The Silent Threshold, Book One placeholder cover">
+  <title>The Silent Threshold — Book One</title>
+  <rect width="600" height="900" fill="#F4F0E8"/>
+  <rect x="0" y="0" width="600" height="120" fill="#A6792B"/>
+  <text x="40" y="55"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="500" font-size="22" letter-spacing="8" fill="#F4F0E8">BOOK ONE</text>
+  <text x="40" y="100"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="32" letter-spacing="2" fill="#F4F0E8">THE SILENT THRESHOLD</text>
+  <text x="40" y="510"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="96" letter-spacing="2" fill="#0F0F12">THE GATE</text>
+  <text x="40" y="600"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="96" letter-spacing="2" fill="#A6792B">OF BONES</text>
+  <rect x="40" y="640" width="180" height="6" fill="#A6792B"/>
+  <text x="40" y="700"
+        font-family="'Playfair Display', Georgia, serif"
+        font-style="italic" font-size="26" fill="#6B6356">Fifty thousand years ago, the world was shared.</text>
+  <rect x="0" y="820" width="600" height="80" fill="#0F0F12"/>
+  <text x="40" y="872"
+        font-family="'Oswald', 'Arial Narrow', sans-serif"
+        font-weight="700" font-size="36" letter-spacing="4" fill="#F4F0E8">COLLIN VANESS</text>
+</svg>
