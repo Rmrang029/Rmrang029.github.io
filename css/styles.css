@@ -497,6 +497,8 @@ a:not(.btn):not(.nav-link):not(.footer-link):hover { color: var(--oxblood-2); }
 .series-hero--iron-revenants{ background: var(--ink); color: var(--bone); border-bottom: 6px solid var(--brass); }
 .series-hero--silent        { background: var(--ink); color: var(--bone); border-bottom: 6px solid var(--series-silent); }
 .series-hero--nothing       { background: var(--series-nothing); color: var(--bone); border-bottom: 6px solid var(--brass); }
+.series-hero--meridian      { background: var(--ink); color: var(--bone); border-bottom: 6px solid var(--series-meridian); }
+.series-hero--meridian .eyebrow { color: var(--series-meridian); }
 
 .series-hero h1 {
   color: inherit;
