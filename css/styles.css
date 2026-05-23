@@ -617,6 +617,38 @@ a:not(.btn):not(.nav-link):not(.footer-link):hover { color: var(--oxblood-2); }
   margin-bottom: var(--sp-3);
 }
 
+/* Two-column page hero: portrait + name/lede. Used on About. */
+.page-hero--with-portrait .container {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: var(--sp-12);
+  align-items: center;
+}
+.page-hero__portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--ink);
+  background: var(--bone);
+  box-shadow: 0 10px 36px rgba(15, 15, 18, 0.20);
+}
+.page-hero__portrait-caption {
+  margin-top: var(--sp-3);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: center;
+}
+@media (max-width: 720px) {
+  .page-hero--with-portrait .container {
+    grid-template-columns: 1fr;
+    gap: var(--sp-6);
+  }
+  .page-hero__portrait { max-width: 260px; margin: 0 auto; }
+}
+
 /* ---------- Prose blocks (about, press, etc.) ---------- */
 .prose { max-width: var(--content-w); }
 .prose p { font-size: 1.0625rem; line-height: 1.75; }
