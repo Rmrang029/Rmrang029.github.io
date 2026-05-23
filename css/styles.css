@@ -840,23 +840,26 @@ a:not(.btn):not(.nav-link):not(.footer-link):hover { color: var(--oxblood-2); }
   margin-top: var(--sp-4);
 }
 .buy-link {
+  display: inline-block;
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  padding: 0.5rem 0.9rem;
-  border: 1px solid var(--bone);
-  color: var(--bone);
-  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+  padding: 0.6rem 1rem;
+  border: 1.5px solid var(--ink);
+  color: var(--ink);
+  background: transparent;
+  transition: background var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease);
 }
-.buy-link:hover { background: var(--bone); color: var(--ink); }
+.buy-link:hover { background: var(--ink); color: var(--bone); border-color: var(--ink); }
 .buy-link--primary {
   background: var(--oxblood);
   border-color: var(--oxblood);
-  color: var(--bone);
+  color: #FFFFFF;
+  font-weight: 700;
 }
-.buy-link--primary:hover { background: var(--oxblood-2); border-color: var(--oxblood-2); color: var(--bone); }
+.buy-link--primary:hover { background: var(--oxblood-2); border-color: var(--oxblood-2); color: #FFFFFF; }
 
 @media (max-width: 520px) {
   .featured-book { grid-template-columns: 140px 1fr; gap: var(--sp-4); }
