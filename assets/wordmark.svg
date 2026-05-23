@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 110" role="img" aria-label="Collin Vaness">
-  <title>Collin Vaness</title>
-  <text x="0" y="72"
-        font-family="'Oswald', 'Arial Narrow', 'Helvetica Neue', sans-serif"
-        font-weight="700"
-        font-size="78"
-        letter-spacing="2"
-        fill="#0F0F12">COLLIN VANESS</text>
-  <rect x="0" y="86" width="600" height="6" fill="#7A1F1F"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 190 1985 330" role="img" aria-labelledby="title desc">
+  <title id="title">Collin Vaness Wordmark</title>
+  <desc id="desc">A minimalist black COLLIN VANESS wordmark with deep burgundy L-shaped underline accent.</desc>
+  <g fill="#101114">
+    <text x="137" y="437"
+          font-family="'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="182"
+          font-weight="900"
+          letter-spacing="18">COLLIN</text>
+    <text x="1102" y="437"
+          font-family="'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="182"
+          font-weight="900"
+          letter-spacing="18">VANESS</text>
+  </g>
+  <g fill="#8c1718">
+    <rect x="70" y="196" width="23" height="313"/>
+    <path d="M70 487 H2041 L2025 509 H70 Z"/>
+  </g>
 </svg>
