@@ -479,6 +479,19 @@ a:not(.btn):not(.nav-link):not(.footer-link):hover { color: var(--oxblood-2); }
   margin-top: var(--sp-4);
   max-width: 50ch;
 }
+.newsletter__success {
+  max-width: 520px;
+  padding: var(--sp-4) var(--sp-5);
+  border: 2px solid var(--brass);
+  background: rgba(176, 141, 60, 0.08);
+}
+.newsletter__success-message {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  color: var(--bone);
+  line-height: 1.5;
+}
 
 /* ---------- Footer ---------- */
 .site-footer {
