@@ -431,12 +431,16 @@
         <p class="eyebrow" style="color: var(--brass);">The Newsletter</p>
         <h2>One email a month. The work, and what&rsquo;s behind it.</h2>
         <p class="lede">Cover reveals, release dates, the occasional process note. No spam, no churn.</p>
-        <!-- TODO: Replace action URL when newsletter platform is chosen -->
-        <form class="newsletter__form" action="#" method="post" novalidate>
-          <label class="visually-hidden" for="email">Email address</label>
-          <input class="newsletter__input" type="email" id="email" name="email" placeholder="you@email.com" required>
+        <form class="newsletter__form js-newsletter-form" action="https://assets.mailerlite.com/jsonp/2374411/forms/188289986217379151/subscribe" method="post" novalidate>
+          <label class="visually-hidden" for="newsletter-email">Email address</label>
+          <input class="newsletter__input" type="email" id="newsletter-email" name="fields[email]" placeholder="you@email.com" required autocomplete="email">
+          <input type="hidden" name="ml-submit" value="1">
+          <input type="hidden" name="anticsrf" value="true">
           <button type="submit" class="btn btn--light">Subscribe</button>
         </form>
+        <div class="newsletter__success js-newsletter-success" hidden role="status" aria-live="polite">
+          <p class="newsletter__success-message">Thank you. Check your inbox for a confirmation link to complete your subscription.</p>
+        </div>
         <p class="newsletter__note">By subscribing you agree to receive occasional emails from Collin Vaness. You can unsubscribe at any time.</p>
       </div>
     </section>
@@ -514,6 +518,26 @@
           if (r.top < window.innerHeight) el.classList.add('is-visible');
         });
       }, 1500);
+    })();
+
+    (function() {
+      var forms = document.querySelectorAll('.js-newsletter-form');
+      if (!forms.length) return;
+      forms.forEach(function(form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          var btn = form.querySelector('button[type="submit"]');
+          if (btn) { btn.disabled = true; btn.textContent = 'Submitting...'; }
+          fetch(form.action, { method: 'POST', body: new FormData(form), mode: 'no-cors' })
+            .then(function() { showSuccess(form); })
+            .catch(function() { showSuccess(form); });
+        });
+      });
+      function showSuccess(form) {
+        var success = form.parentNode.querySelector('.js-newsletter-success');
+        form.hidden = true;
+        if (success) success.hidden = false;
+      }
     })();
   </script>
 </body>
