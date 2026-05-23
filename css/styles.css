@@ -493,6 +493,168 @@ a:not(.btn):not(.nav-link):not(.footer-link):hover { color: var(--oxblood-2); }
   line-height: 1.5;
 }
 
+/* ---------- Newsletter Archive Index ---------- */
+.issue-archive {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  margin-top: var(--sp-6);
+}
+.issue-card {
+  display: grid;
+  grid-template-columns: 120px 1fr auto;
+  gap: var(--sp-6);
+  align-items: baseline;
+  padding: var(--sp-5) 0;
+  border-bottom: 1px solid var(--hairline);
+  text-decoration: none;
+  color: var(--ink);
+  transition: background var(--dur) var(--ease);
+}
+.issue-card:hover { background: rgba(176, 141, 60, 0.06); }
+.issue-card__num {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brass);
+}
+.issue-card__body { display: block; }
+.issue-card__title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: var(--ink);
+  margin: 0 0 var(--sp-1) 0;
+  line-height: 1.2;
+}
+.issue-card__date {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 var(--sp-2) 0;
+}
+.issue-card__excerpt {
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 0;
+}
+.issue-card__cta {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+  white-space: nowrap;
+}
+@media (max-width: 720px) {
+  .issue-card {
+    grid-template-columns: 1fr;
+    gap: var(--sp-2);
+    padding: var(--sp-4) 0;
+  }
+  .issue-card__cta { margin-top: var(--sp-2); }
+}
+
+/* ---------- Newsletter Issue (article-style page) ---------- */
+.issue-hero {
+  padding: var(--sp-16) 0 var(--sp-8);
+  border-bottom: 1px solid var(--hairline);
+}
+.issue-hero__meta {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brass);
+  margin-bottom: var(--sp-3);
+}
+.issue-hero h1 {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  line-height: 1.15;
+  margin-bottom: var(--sp-4);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  text-transform: none;
+  color: var(--ink);
+}
+.issue-hero__byline {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.issue-article {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: var(--sp-10) 0;
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: var(--ink);
+}
+.issue-article p { margin: 0 0 var(--sp-5) 0; }
+.issue-article p strong { font-family: var(--font-display); font-weight: 700; font-style: normal; }
+.issue-article h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+  margin: var(--sp-10) 0 var(--sp-4) 0;
+  padding-bottom: var(--sp-2);
+  border-bottom: 1px solid var(--hairline);
+}
+.issue-article a { color: var(--oxblood); text-decoration: underline; text-underline-offset: 3px; }
+.issue-article a:hover { color: var(--oxblood-2); }
+.issue-article hr {
+  border: none;
+  height: 1px;
+  background: var(--hairline);
+  margin: var(--sp-8) auto;
+  width: 60px;
+}
+.issue-article .issue-signoff {
+  margin-top: var(--sp-8);
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+.issue-article .issue-ps {
+  margin-top: var(--sp-6);
+  padding-top: var(--sp-5);
+  border-top: 1px solid var(--hairline);
+  font-size: 1rem;
+}
+.issue-footer {
+  background: var(--ink);
+  color: var(--bone);
+  padding: var(--sp-12) 0;
+  border-top: 6px solid var(--oxblood);
+  text-align: center;
+}
+.issue-footer h3 {
+  color: var(--bone);
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  margin-bottom: var(--sp-3);
+}
+.issue-footer p { color: var(--hairline); margin-bottom: var(--sp-6); }
+.issue-footer__back {
+  display: inline-block;
+  margin-top: var(--sp-6);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brass);
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--bone);
