@@ -620,6 +620,24 @@ a:not(.btn):not(.nav-link):not(.footer-link):hover { color: var(--oxblood-2); }
   margin: var(--sp-8) auto;
   width: 60px;
 }
+.issue-article ul.issue-list {
+  margin: var(--sp-4) 0 var(--sp-6) 0;
+  padding-left: var(--sp-5);
+  list-style: none;
+}
+.issue-article ul.issue-list li {
+  position: relative;
+  padding-left: var(--sp-4);
+  margin-bottom: var(--sp-3);
+  line-height: 1.6;
+}
+.issue-article ul.issue-list li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--oxblood);
+  font-weight: 700;
+}
 .issue-article .issue-signoff {
   margin-top: var(--sp-8);
   font-family: var(--font-serif);
