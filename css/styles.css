@@ -806,6 +806,30 @@ a:not(.btn):not(.nav-link):not(.footer-link):hover { color: var(--oxblood-2); }
   color: var(--oxblood);
   font-weight: 700;
 }
+.issue-article .issue-attrib {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-style: normal;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: var(--sp-6) 0 var(--sp-3) 0;
+}
+.issue-article .issue-attrib strong {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--oxblood);
+}
+.issue-article blockquote {
+  margin: 0 0 var(--sp-4) 0;
+  padding: 0 0 0 var(--sp-5);
+  border-left: 3px solid var(--brass);
+  font-style: italic;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.issue-article blockquote p { margin: 0; }
 .issue-article .issue-signoff {
   margin-top: var(--sp-8);
   font-family: var(--font-serif);
