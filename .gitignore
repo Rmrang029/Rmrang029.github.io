@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------
+# collinvaness.com - published web root
+#
+# EVERYTHING IN THIS FOLDER IS PUBLIC. It is served at
+# https://collinvaness.com and mirrored on public GitHub.
+#
+# Never place manuscripts, drafts, outlines, EPUBs, or commercial
+# strategy documents here. Source material belongs outside the repo.
+# ---------------------------------------------------------------
+
+# Manuscript & document formats - never publish these
+*.epub
+*.docx
+*.doc
+*.odt
+*.rtf
+*.mobi
+*.azw
+*.azw3
+*.indd
+*.scriv
+
+# Source material folders (belt and braces)
+series/*/
+headshot/
+_Source*/
+Awards/
+Manuscripts/
+
+# macOS cruft
+.DS_Store
+**/.DS_Store
+._*
+
+# Editor / OS noise
+*.swp
+*~
+Thumbs.db
+
+# Build & dependency artifacts
+node_modules/
+__pycache__/
+*.pyc
+.venv/
