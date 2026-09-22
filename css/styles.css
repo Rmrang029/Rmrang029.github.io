@@ -1353,6 +1353,11 @@ a:not(.btn):not(.nav-link):not(.footer-link):hover { color: var(--oxblood-2); }
   font-size: 0.875rem;
   color: var(--muted);
 }
+/* The timeline sits inside .section--ink, whose `p` rule (bone on dark)
+   out-specifies the two rules above and rendered them invisible on the
+   bone-coloured cards. These restore them. */
+.section--ink .timeline__phase { color: var(--oxblood); opacity: 1; }
+.section--ink .timeline__note { color: var(--muted); opacity: 1; }
 
 /* ---------- Reveal-on-scroll animation ----------
    Reveals are visible by default for no-JS / SEO / screenshot bots.
