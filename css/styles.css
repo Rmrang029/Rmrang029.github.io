@@ -295,6 +295,8 @@ a:not(.btn):not(.nav-link):not(.footer-link):hover { color: var(--oxblood-2); }
 .btn--ghost:hover { background: var(--oxblood); color: var(--bone); }
 .btn--light { background: transparent; color: var(--bone); border-color: var(--bone); }
 .btn--light:hover { background: var(--bone); color: var(--ink); }
+.btn--solid-light { background: var(--bone); color: var(--ink); border-color: var(--bone); font-weight: 700; }
+.btn--solid-light:hover { background: var(--brass); color: var(--ink); border-color: var(--brass); }
 .btn__arrow { display: inline-block; transform: translateY(-1px); }
 
 .btn-group { display: flex; flex-wrap: wrap; gap: var(--sp-3); }
