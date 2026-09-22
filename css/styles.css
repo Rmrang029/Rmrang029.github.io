@@ -2,6 +2,15 @@
    COLLIN VANESS — Author site
    Visual system per Author Brand Guide v1.0
    Single stylesheet. Mobile-first. No build step.
+
+   CACHE VERSION: v=3
+   Every page links this file as: css/styles.css?v=3
+   AFTER EDITING THIS FILE, bump that number everywhere, or
+   returning visitors keep seeing the old stylesheet. From the
+   repo root:
+       grep -rl 'styles.css?v=3' --include='*.html' . \
+         | xargs sed -i '' 's/styles.css?v=3/styles.css?v=4/g'
+   Then update the CACHE VERSION line above to match.
    ============================================================= */
 
 /* ---------- Design tokens ---------- */
