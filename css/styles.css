@@ -1718,3 +1718,12 @@ a:not(.btn):not(.nav-link):not(.footer-link):hover { color: var(--oxblood-2); }
   .excerpt__inner { grid-template-columns: 1fr; }
   .excerpt__meta { position: static; }
 }
+
+/* ---------- Long-list award pill ---------- */
+.status--longlist { background: var(--brass); color: var(--ink); white-space: nowrap; }
+
+/* ---------- Promo banner (date-gated in page script) ---------- */
+.promo-banner { background: var(--oxblood); color: var(--bone); text-align: center; padding: 0.75rem 1rem; }
+.promo-banner[hidden] { display: none; }
+.promo-banner p { margin: 0 auto; max-width: none; font-size: var(--fs-sm); letter-spacing: 0.02em; }
+#promo-banner a, #promo-banner a:hover { color: var(--bone); text-decoration: underline; text-underline-offset: 3px; margin-left: 0.5rem; white-space: nowrap; }
